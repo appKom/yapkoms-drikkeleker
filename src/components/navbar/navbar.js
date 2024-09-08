@@ -2,7 +2,7 @@ function Navbar(){
     return(<nav>
         <div id="container">
             <div id="online-logo">
-              <a href="https://online.ntnu.no" id="logo-link"></a>
+              <a href="/" id="logo-link"></a>
             </div>
             <div id="appkom-logo">
                 <div id="appkom-logo-container"></div>
