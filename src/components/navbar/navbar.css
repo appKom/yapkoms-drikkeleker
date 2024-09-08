@@ -1,0 +1,77 @@
+#container{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+#online-logo{
+    position: relative;
+    width: 33.33vw;
+    height: 100%;
+}
+
+#appkom-logo{
+    height: 100%;
+    width: 33.33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsor{
+    height: 100%;
+    width: 33.33vw;
+    position: relative;
+}
+
+@media (max-width:500px){
+    #logo-link{
+        background-image: none !important;
+        background-image: url("./appkom_logo.svg") !important;
+        background-repeat: no-repeat !important;
+        background-size: 30% !important;
+        background-position: center !important;
+    }
+    #appkom-logo-container{
+        background-image: none !important;
+    }
+
+}
+
+#logo-link{
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+    width: 20vh;
+    height: 6vh;
+    background-image: url("./online_logo_stor.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#sponsor-link{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    width: 20vh;
+    height: 6vh;
+    background-image: url("./bekk.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#appkom-logo-container{
+    width: 20vh;
+    height: 6vh;
+    position: absolute;
+    background-image: url("./appkom_logo.svg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 2vh;
+}
