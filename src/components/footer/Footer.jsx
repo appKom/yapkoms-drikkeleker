@@ -6,7 +6,17 @@ function Footer() {
       <p>
         Har du ikke rukket å bli drita enda?
         <br />
-        Kontakt: Fredrik
+        <br />
+        <b>Kontakt:</b>
+        <br />
+        Fredrik Carsten Hansteen
+        <br />
+        Applikasjonskomiteen, Online
+        <br />
+        <a href="mailto:fredrik.carsten.hansteen@online.ntnu.no">fredrik.carsten.hansteen@online.ntnu.no</a>
+        <br />
+        <a href="tel:+4747630231">(+47) 476 30 231</a>
+
       </p>
       <div className="logoer">
         <a href="https://www.facebook.com/LinjeforeningenOnline">
