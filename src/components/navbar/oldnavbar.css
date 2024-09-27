@@ -1,0 +1,139 @@
+#container{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+#online-logo{
+    position: relative;
+    width: 33.33vw;
+    height: 100%;
+}
+
+#appkom-logo{
+    height: 100%;
+    width: 33.33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsor{
+    height: 100%;
+    width: 33.33vw;
+    position: relative;
+}
+
+@media (max-width:365px){
+
+    #container {
+        justify-content: center;
+    }
+
+    #online-logo {
+        display: none;
+    }
+    #sponsor {
+        display: none;
+    }
+    
+    #logo-link {
+       background: none;
+    }
+    #appkom-link {
+        background-image: url('./appkom_logo.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #sponsor-link {
+        background: none;
+    }
+}
+
+@media (min-width:365px) and (max-width:500px){
+    #container {
+        justify-content: space-between;
+    }
+    #sponsor {
+        display: none; 
+    }
+    #logo-link {
+        background-image: url('./online_logo_stor.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #appkom-link {
+        background-image: url('./appkom_logo.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #sponsor-link {
+        display: none;
+    }
+}
+
+@media (min-width:500px) and (max-width:550px){
+    #sponsor {
+        display: none;
+    }
+
+    #logo-link {
+        background-image: url('./online_logo_stor.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #appkom-link {
+        background-image: url('./appkom_logo.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #sponsor-link {
+        background-image: url('./bekk.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media (min-width:550px){
+    #logo-link {
+        background-image: url('./online_logo_stor.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #appkom-link {
+        background-image: url('./appkom_logo.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #sponsor-link {
+        background-image: url('./bekk.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+#logo-link{
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+    width: 20vh;
+    height: 6vh;
+}
+
+#sponsor-link{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    width: 20vh;
+    height: 6vh;
+}
+
+#appkom-link{
+    width: 20vh;
+    height: 6vh;
+    position: absolute;
+    top: 2vh;
+}

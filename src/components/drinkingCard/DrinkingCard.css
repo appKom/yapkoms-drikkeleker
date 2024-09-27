@@ -1,0 +1,34 @@
+#card-container{
+    border: 2px solid black;    
+    width: 30vw;
+    height: 30vw;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+#image-container{
+    background-color: aqua;
+    height: 50%;
+    width: 100%;
+}
+
+#bottom-container{
+    background-color: azure;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    height: 20%;
+    width: 100%;
+    background-color: red;
+}
+
+#description{
+    height: 80%;
+    width: 100%;
+    background-color: blue;
+}
