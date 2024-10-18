@@ -8,7 +8,7 @@ function App() {
         <h1>Yapkoms drikkeleker</h1>
       </header>
       <div id="testing">
-        <DrinkingCard name={"6 minutes"} image={'./bekk.svg'} description={"Den beste leken."}/>
+        <DrinkingCard name={"Chandelier"} image={'./julian.jpg'} description={'"Den beste leken. Hei, dette er den aller beste drikkeleken som fins. Jeg elsker å spille Chandelier!! Har du liten tid igjen på vorset? Jeg heter JULIAN OG JEG ELSKER CHANANANADDEDEELIRERRER@!!" - Julian'}/>
       </div>
     </div>
   );
