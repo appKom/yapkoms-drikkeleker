@@ -1,12 +1,7 @@
 import "./App.css";
-import DrinkingCard from "./components/drinkingCard/drinkingCard";
-import { drinkingGames } from "./lib/games";"./lib/games.js";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-
+import DrinkingCard from "./components/drinkingCard/DrinkingCard";
+import { drinkingGames } from "./lib/games";
+("./lib/games.js");
 
 function App() {
   return (
@@ -18,13 +13,13 @@ function App() {
         <div id="drinkingGamesContainer">
           {drinkingGames.map((game, index) => (
             <DrinkingCard
-              key = {index}
-              id = {game.id}
-              name = {game.name}
-              image = {game.image}
-              description = {game.description}
-              />
-            ))}
+              key={index}
+              id={game.id}
+              name={game.name}
+              image={game.image}
+              description={game.description}
+            />
+          ))}
         </div>
       </div>
     </div>
