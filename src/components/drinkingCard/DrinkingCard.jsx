@@ -1,9 +1,9 @@
 import "./DrinkingCard.css"
 
-const DrinkingCard = ({name, image, description}) => {
+const DrinkingCard = ({id, name, image, description}) => {
     return (
       <nav>
-        <div id="card-container">
+        <a href={`/game/${id}`} id="card-container">
             <div id="image-container">
                 <img src={image}></img>
             </div>
@@ -16,7 +16,7 @@ const DrinkingCard = ({name, image, description}) => {
                 </div>
             </div>
             
-        </div>
+        </a>
       </nav>
     );
   };

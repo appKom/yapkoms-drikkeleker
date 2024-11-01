@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav>
       <div id="container">
-        <a href="https://www.online.ntnu.no" id="online-container">
+        <a href="https://www.online.ntnu.no/" id="online-container">
           <img src="/online-logo.svg" alt="Online logo" />
         </a>
 
