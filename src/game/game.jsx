@@ -3,12 +3,11 @@ import { drinkingGames } from "../lib/games";
 
 const GamePage = () => {
   const { gameid } = useParams();
-  const game = drinkingGames.find((game) => game.id === gameid);
-
-  if (!game) {
-    return <div>Game Page not Found</div>;
+  const game = drinkingGames.find((game) => game.id == gameid);
+  console.log(game)
+  if (!game) {  
+    return <div>Game Page not Found</div>;  
   }
-
   return (
     <div className="gamePage">
       <p>{game.name}</p>
